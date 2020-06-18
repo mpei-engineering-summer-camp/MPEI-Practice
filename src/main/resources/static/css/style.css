@@ -16,3 +16,30 @@
     border-color: #e0a8af;
     background-color:#e0a8af;
 }
+
+.btn-mdb-color {
+    color: #fff;
+    background-color: #7b3f48 !important;
+}
+
+.unique-color-dark {
+    background-color: #50181f !important;
+}
+
+.navbar.navbar-dark form .md-form input:focus:not([readonly]) {
+    border-color: #e0a8af;
+}
+
+input[type="search-md"]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #e0a8af;
+    -webkit-box-shadow: 0 1px 0 0 #e0a8af;
+    box-shadow: 0 1px 0 0 #e0a8af;
+}
+
+.pagination.pg-blue .page-item.active .page-link {
+    background-color: #7b3f48;
+}
+
+.pagination.pg-blue .page-item.active .page-link:hover {
+    background-color: #e0a8af;
+}

@@ -3,6 +3,8 @@ package com.example.mpei.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -24,5 +26,12 @@ public class Recipe {
     private String cuisine;
 
     private Integer minutes;
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "user_recipe",
+            joinColumns = @JoinColumn(name = "recipe_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id")
+    )
+    private Set<User> users = new HashSet<>();
 
 }

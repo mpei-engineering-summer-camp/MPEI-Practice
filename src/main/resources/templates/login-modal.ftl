@@ -29,20 +29,9 @@
                                     <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
                                 </div>
                             </div>
-                            <div>
-                                <a href="">Forgot password?</a>
-                            </div>
                         </div>
 
                         <button type="submit" class="btn btn-mdb-color">Войти<i class="fas fa-play ml-2 mb-2"></i></button>
-
-                        <div class="modal-footer d-flex justify-content-center mt-3">
-                            <p>or sign up with:</p>
-                            <a href="#" class="mx-1" role="button"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="mx-1" role="button"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="mx-1" role="button"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="mx-1" role="button"><i class="fab fa-github"></i></a>
-                        </div>
                     </form>
                 </div>
             </div>
