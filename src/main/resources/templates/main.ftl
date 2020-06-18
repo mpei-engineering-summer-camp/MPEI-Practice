@@ -102,7 +102,7 @@
                     <h3 class="font-weight-bolder">${r.name}</h3>
                     <div class="mr-3 p-1 mb-2 d-inline-block" style="background-color: #f0e0e2;">${r.cuisine!}</div>
                     <div class="mr-3 p-1 d-inline-block" style="background-color: #f0e0e2;">${r.type!}</div>
-                    <img src="img/pelmeni.jpg" style="width: 100%; height: auto;" class="my-3">
+                    <img src="img/image.jpg" style="width: 100%; height: auto;" class="my-3">
                     <div class="text-center">
                         <#if s.known>
                             <form action="/add" method="post">

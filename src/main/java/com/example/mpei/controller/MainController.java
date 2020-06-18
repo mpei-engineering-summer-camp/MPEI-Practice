@@ -95,6 +95,13 @@ public class MainController {
         return "redirect:/";
     }
 
+    @GetMapping("/myRecipes")
+    public String myRecipes(Model model, @AuthenticationPrincipal User user) {
+        Set<Recipe> set = user.getRecipes();
+        model.addAttribute("set", set);
+        return "myRecipes";
+    }
+
     /*@GetMapping("/test")
     public String test() {
         List<Recipe> list = recipeRepository.findAll();

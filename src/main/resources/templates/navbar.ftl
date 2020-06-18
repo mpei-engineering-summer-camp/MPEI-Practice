@@ -2,9 +2,9 @@
 
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark unique-color-dark fixed-top">
     <div class="container-md">
-        <a class="navbar-brand" href="#">
-            <#--<img src="" height="30" class="d-inline-block align-top"
-                 alt="mdb logo"> <strong class="h3">Bootstrap</strong>-->
+        <a class="navbar-brand" href="/">
+            <img src="" height="30" class="d-inline-block align-top"
+                 alt=""> <strong class="h3 mr-5">Gourmet Paradise</strong>
         </a>
         <div class="md-form my-0">
             <form class="form-inline">
@@ -44,7 +44,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right dropdown-default"
                              aria-labelledby="navbarDropdownMenuLink-333">
-                            <a class="dropdown-item" href="#">Мои рецепты</a>
+                            <a class="dropdown-item" href="/myRecipes">Мои рецепты</a>
                         </div>
                     </li>
                 </#if>
